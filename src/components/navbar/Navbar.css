@@ -1,0 +1,46 @@
+
+.nav-main-component {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background-color: #FFFFFF;
+}
+
+.nav-middle-circle {
+    position: relative;
+    width: 250px;
+    transform: translate(0%, -60%);
+    height: 100px;
+    border-radius: 0 0 60px 60px;
+    background-color: #FFFFFF;
+    margin-left: 30px;
+}
+
+.nav-title {
+    bottom: 10px;
+    margin: auto;
+    margin-left: 90px;
+    font-size: 2em;
+    font-weight: 600;
+    color: black;
+}
+.nav-flex{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-flex-right {
+    width: 100%;
+    height: 100%;
+    left: 30px;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
