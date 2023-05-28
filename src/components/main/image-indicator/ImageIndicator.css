@@ -1,0 +1,18 @@
+
+.info-section-island-image-selector {
+    margin-top: 2px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+}
+
+.info-section-island-image.selected {
+    margin-left: 1px;
+    margin-top: 1px;
+    background-color: #877C7C;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+}

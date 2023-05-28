@@ -6,7 +6,9 @@ export function Navbar() {
         <div className="nav-main-component">
             <div className="nav-flex">
                     <NavbarButton name = ""/>
+                    <NavbarButton name=""/>
                     <NavbarButton name="COLLECTIONS"/>
+                    <NavbarButton name=""/>
                     <NavbarButton name=""/>
 
                     <div className="nav-middle-circle"> 
@@ -15,9 +17,11 @@ export function Navbar() {
                         </div>
                     </div>
 
+                    <NavbarButton name=""/>
                     <NavbarButton name="HOME" />
                     <NavbarButton name="CONTACT US"/>
                     <NavbarButton name="ABOUT US"/>
+                    <NavbarButton name=""/>
             </div>
         </div>
     </>

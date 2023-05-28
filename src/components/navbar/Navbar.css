@@ -9,7 +9,7 @@
 .nav-middle-circle {
     position: relative;
     width: 250px;
-    transform: translate(0%, -60%);
+    transform: translate(-5%, -60%);
     height: 100px;
     border-radius: 0 0 60px 60px;
     background-color: #FFFFFF;
@@ -17,12 +17,15 @@
 }
 
 .nav-title {
-    bottom: 10px;
+    position:relative;
+    bottom: -50px;
+    left: -45px;
     margin: auto;
     margin-left: 90px;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 600;
     color: black;
+    z-order: 9999;
 }
 .nav-flex{
     position: absolute;

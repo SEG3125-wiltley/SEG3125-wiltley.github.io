@@ -1,0 +1,23 @@
+
+
+
+.image-switch-button-circle {
+    position: relative;
+    background-color: #000000;
+    border-radius: 50%;
+    opacity: .5;
+    width: 40px;
+    height: 40px;
+    z-order: 9999;
+    cursor: pointer;
+}
+
+.image-switch-button-text {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
