@@ -44,7 +44,6 @@ export function Main() {
         console.log(activeIndex)
     }
 
-
     return <>
         <div className="main">
             <div className="image-box">
@@ -71,7 +70,8 @@ export function Main() {
                     </div>
                 </div>
                 <div className="info-section-quote">
-                    "OKAY YOU DON"T NEED"
+                    <div className="logo">
+                    </div>
                 </div>
             </div>
 

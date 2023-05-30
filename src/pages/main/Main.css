@@ -20,12 +20,18 @@
 }
 
 .info-section-quote {
-    padding: 70px 0;
     width: 100%;
     height: 100%;
     color: white;
     text-align:center;
     font-size: 1.25rem;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/logo.png');
+    background-size: 'cover';
 }
 
 .info-section-image-indicator {
