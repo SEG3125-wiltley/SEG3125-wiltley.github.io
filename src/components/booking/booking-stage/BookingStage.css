@@ -1,0 +1,13 @@
+
+.booking-stage-flex {
+    width: 93%;
+    height: 10%;
+    font-size: 2.5rem;
+    border-radius: 20px;
+}
+
+.booking-stage-flex.activated {
+    height: 50%;
+    background-color: #FFFFFF;
+    color: black;
+}
