@@ -1,0 +1,13 @@
+.stage-one-flex-column {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.stage-one-title-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

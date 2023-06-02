@@ -1,6 +1,8 @@
 import "./Booking.css"
 import { useState } from 'react';
 import { BookingStage } from "../../components/booking/booking-stage/BookingStage"
+import {StageOne} from "../../components/booking/stages/stage-one/StageOne"
+import {StageTwo} from "../../components/booking/stages/stage-two/StageTwo"
 
 type Stage = {
     id: number,
@@ -44,29 +46,43 @@ export function Booking() {
         setCurrentStage(stages[currentStage.id + 1])
     };
 
+
+    const renderComponent = () => {
+        switch(currentStage.id) {
+            case 0:
+                return <StageOne />;
+            default:
+                return <StageTwo />;
+        }
+    }
+
     return <>
         <div className="booking-flex-stack">
             <div className="booking-flex">
                 <div className="booking-island-side">
                     <div className="booking-container">
                         <div className="booking-island">
-                            <div className="booking-island-flex">
-                                {stages.map(stage => (
-                                    <BookingStage
-                                    key={stage.id}
-                                    name={stage.name}
-                                    description={stage.description}
-                                    current={currentStage.id === stage.id}
-                                    complete={currentStage.id > stage.id}
-                                    />
-                              ))}
+                            <div className="booking-island-center">
+                                <div className="booking-island-flex">
+                                    {stages.map(stage => (
+                                        <BookingStage
+                                        key={stage.id}
+                                        name={stage.name}
+                                        description={stage.description}
+                                        current={currentStage.id === stage.id}
+                                        complete={currentStage.id > stage.id}
+                                        />
+                                  ))}
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="booking-info-side">
-                a
+                <div className="booking-container"> 
+                    <div className="booking-info-side">
+                        {renderComponent()}
+                    </div>
                 </div>
             </div>
 

@@ -2,12 +2,32 @@
 .booking-stage-flex {
     width: 93%;
     height: 10%;
-    font-size: 2.5rem;
     border-radius: 20px;
+    font-size: 2.0rem;
 }
 
 .booking-stage-flex.activated {
+    margin-top: 20px;
     height: 50%;
     background-color: #FFFFFF;
     color: black;
+}
+
+.booking-stage-main-text {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-indent: 20px;
+}
+
+.booking-stage-details-text {
+    height: 0%;
+    text-indent: -9999px;
+}
+
+.booking-stage-details-text.activated {
+    height: 100%;
+    text-indent: 0px;
+    font-size: 1.0rem;
+    text-indent: 20px;
 }

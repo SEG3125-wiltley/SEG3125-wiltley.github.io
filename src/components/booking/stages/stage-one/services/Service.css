@@ -1,0 +1,67 @@
+
+
+.service-box {
+    height: 20%;
+    width: 100%;
+    border-radius: 2%;
+    border-size: 2px;
+    border-color: #3E9ED4;
+    border-style: solid;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.service-box-text-area {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 90%;
+    height: 100%;
+}
+
+.service-price-text {
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.service-name-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.service-description-text {
+    margin-top: 5px;
+}
+
+.service-box-button-area {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-selection-box {
+    width: 50%;
+    height: 30%;
+    border-style: solid;
+    border-color: #000000;
+    text-indent: -9999px;
+}
+
+.service-selection-box:hover {
+    cursor: pointer;
+}
+
+.service-selection-box.selected {
+    background-color: #57D14C;
+    text-indent: 0px;
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+
