@@ -1,0 +1,25 @@
+
+.day-circle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #7AABD8;
+    margin-top: 20px;
+}
+
+.day-circle.activated {
+    background-color: #808080;
+}
+
+.day-number-text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+}
+
+.day-circle:hover {
+    background-color: #808080;
+}
