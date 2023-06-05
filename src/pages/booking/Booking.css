@@ -29,21 +29,39 @@
 }
 
 .booking-bottom-section {
+    position: relative;
     height: 25%;
     width: 100%;
     background-color: #282828;
     display: flex;
+}
+
+.booking-bottom-section-flex {
+    display: flex;
+    width: 50%;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
+}
+
+.booking-totalinfo-text {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    top: 20px;
+    font-weight: 600;
 }
 
 .booking-bottom-button {
     position: absolute;
     width: 9%;
-    height: 5%;
+    height: 20%;
     background-color: #57D14C;
     right: 100px;
-    transform: translate(0%, -25%);
+    transform: translate(0%, -50%);
     cursor: pointer;
 }
 

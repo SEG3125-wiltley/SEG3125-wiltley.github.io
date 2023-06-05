@@ -1,10 +1,12 @@
 import "./Service.css"
 import { useState } from 'react'
+import { AlterBookingInfo } from "../../../../../pages/booking/Booking"
 
 interface service {
     name: string;
     description: string;
     price: string;
+    bookingInfo: AlterBookingInfo;
 }
 
 export function Service(props: service) {
@@ -13,6 +15,12 @@ export function Service(props: service) {
 
     const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
         event.preventDefault();
+
+        var copy = props.bookingInfo.fullbookinginfo
+        copy.service = props.name;
+        copy.price = props.price + "$";
+        props.bookingInfo.alterInfo(copy)
+
         if (selected === false) {
             setSelected(true);
         } else {
