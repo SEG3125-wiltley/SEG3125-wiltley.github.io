@@ -15,7 +15,8 @@ export function Main() {
     const quotes: string[] = [
       "\"Stunningly beautiful designs!\" - ✰✰✰✰",
       "\"World class tailorship\" - ✰✰✰✰✰",
-      "Incredibe precision and attention to detail!\" - ✰✰✰✰✰"
+      "\"Incredibe precision and attention to detail!\" - ✰✰✰✰✰",
+      "\"Spectacular!\" - ✰✰✰✰✰"
     ];
 
     const images: string[] = [
@@ -44,6 +45,11 @@ export function Main() {
         console.log(activeIndex)
     }
 
+    const bookNow = (event : React.MouseEvent<HTMLDivElement>) => {
+        event.preventDefault();
+        window.location.href = "/experts";
+    }
+
     return <>
         <div className="main">
             <div className="image-box">
@@ -60,7 +66,9 @@ export function Main() {
             </div>
             <div className="info-section">
                 <div className="info-section-quote">
-                    {quotes[1]}
+                        <div>
+                        {quotes[activeIndex]}
+                        </div>
                 </div>
                 <div className="info-section-image-indicator">
                     <div className="info-section-island">
@@ -76,9 +84,25 @@ export function Main() {
             </div>
 
             <div className="bottom-section">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
+                <div className="bottom-section-left">
+                    <div>
+                    1
+                    </div>
+                    <div>
+                    1.2
+                    </div>
+                </div>
+
+                <div className="bottom-section-right">
+                    <div>
+                    ok
+                    </div>
+                    <div className="bottom-section-book-button">
+                        <div onClick={bookNow} className="bottom-section-book-text">
+                            BOOK NOW
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </>

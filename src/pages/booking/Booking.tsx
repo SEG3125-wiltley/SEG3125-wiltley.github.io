@@ -25,9 +25,18 @@ export interface AlterBookingInfo {
     alterInfo: Function;
 }
 
+interface props {
+    assistant: string;
+}
 
-export function Booking() {
+export function Booking(prop : props) {
 
+    let name = localStorage.getItem("name");
+
+    if (name === null) {
+      name = "Default Name"; // Set a default value if localStorage returns null
+    }
+    
     const stages: Stage[] = [
         {
             id: 0,
@@ -53,7 +62,7 @@ export function Booking() {
     const [currentStage, setCurrentStage] = useState<Stage>(stages[0]);
     const [contButtonText, setContButtonText] = useState<string>("CONTINUE");
     const [info, setInfo] = useState<FullBookingInfo>({
-        assistant: "-",
+        assistant: name ,
         price: "-",
         date: "-",
         service: "-"

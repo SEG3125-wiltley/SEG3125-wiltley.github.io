@@ -1,5 +1,6 @@
 import "./Experts.css"
 import { Expert } from "../../components/expert/Expert"
+import { SetExpert } from "../../App"
 
 
 interface ExpertDetails {
@@ -9,7 +10,9 @@ interface ExpertDetails {
     image: string;
 }
 
-export function Experts() {
+
+
+export function Experts(props : SetExpert) {
 
     const expertList: ExpertDetails[] = [
         {
@@ -36,7 +39,7 @@ export function Experts() {
         <div className="expert-flex">
             <div className="experts-background-image">
                 {expertList.map((expert, index) => (
-                    <Expert key={index} details={expert} />
+                    <Expert key={index} details={expert} setExpert={props.setExpert}  />
                 ))}
 
             </div>

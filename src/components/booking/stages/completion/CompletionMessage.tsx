@@ -5,6 +5,7 @@ export function CompletionMessage(props : AlterBookingInfo) {
 
     const onClick = (event : React.MouseEvent<HTMLDivElement>) => {
         event.preventDefault();
+        localStorage.removeItem("name");
         window.location.href = "/";
     }
 

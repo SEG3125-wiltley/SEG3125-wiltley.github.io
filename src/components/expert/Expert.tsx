@@ -11,6 +11,7 @@ interface ExpertProps {
     description: string;
     image: string;
   };
+  setExpert: Function;
 }
 
 export function Expert(props : ExpertProps) {
@@ -19,8 +20,14 @@ export function Expert(props : ExpertProps) {
       backgroundImage: `url(${props.details.image})`,
     };
 
+    const setExpertNameAndRedirect = (event : React.MouseEvent<HTMLDivElement>) => {
+        event.preventDefault();
+        localStorage.setItem("name", props.details.name);
+        window.location.href = "/bookings";
+    }
+
     return <>
-        <div className="expert-box">
+        <div onClick={setExpertNameAndRedirect} className="expert-box">
             <div className="expert-image-section" style={styles}>
                     <img src={"../../../public/businesscasual.png"} alt="Expert" />
             </div>
