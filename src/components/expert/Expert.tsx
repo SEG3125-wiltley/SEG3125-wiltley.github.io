@@ -28,8 +28,8 @@ export function Expert(props : ExpertProps) {
 
     return <>
         <div onClick={setExpertNameAndRedirect} className="expert-box">
-            <div className="expert-image-section" style={styles}>
-                    <img src={"../../../public/businesscasual.png"} alt="Expert" />
+            <div className="expert-image-section" >
+                <div className="expert-image" style={styles}></div>
             </div>
             <div className="expert-box-info-section">
                 <div className="expert-info-text">

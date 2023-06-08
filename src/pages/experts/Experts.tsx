@@ -19,19 +19,19 @@ export function Experts(props : SetExpert) {
             name: 'Shelly',
             expertise: "Woman's tailorship & fashion",
             description: "ok",
-            image: '../../../public/businesswoman.jpg',
+            image: require('../../images/businesswoman.jpg'),
         },
         {
             name: 'Jackson',
             expertise: 'Data Science',
             description: 'I specialize in machine learning and data analysis...',
-            image: 'path/to/image2.jpg',
+            image: require('../../images/businessman.jpg'),
         },
         {
             name: 'Brian',
             expertise: 'Data Science',
             description: 'I specialize in machine learning and data analysis...',
-            image: 'path/to/image2.jpg',
+            image: require('../../images/businesscasual.png'),
         },
     ];
 

@@ -3,6 +3,7 @@ import { NavbarButton } from './NavbarButtons';
 
 export function Navbar() {
     return <>
+
         <div className="nav-main-component">
             <div className="nav-flex">
                     <NavbarButton name = ""/>

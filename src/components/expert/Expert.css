@@ -18,13 +18,18 @@
     top: 45px;
     box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-
 }
 
 .expert-image-section {
-    position: relative;
     height: 65%;
     width: 100%;
+}
+
+.expert-image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .expert-box-info-section {
