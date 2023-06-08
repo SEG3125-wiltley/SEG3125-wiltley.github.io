@@ -11,6 +11,7 @@
     height: 50%;
     background-color: #FFFFFF;
     color: black;
+    overflow: auto;
 }
 
 .booking-stage-main-text {

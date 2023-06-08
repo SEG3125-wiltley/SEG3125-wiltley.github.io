@@ -9,10 +9,12 @@
     border-style: solid;
     margin-bottom: 20px;
     display: flex;
+    overflow: auto;
 }
 
 .service-box-text-area {
     margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 10px;
     width: 90%;
     height: 100%;
