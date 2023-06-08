@@ -18,8 +18,8 @@ export function Main() {
      const [activeIndex, setActiveIndex] = useState(0);
 
     const quotes: string[] = [
-      "\"Stunningly beautiful designs!\" - ✰✰✰✰",
-      "\"World class tailorship\" - ✰✰✰✰✰",
+      "\"Stunningly beautiful designs!\" - ✰✰✰✰✰",
+      "\"World class tailorship!\" - ✰✰✰✰✰",
       "\"Incredibe precision and attention to detail!\" - ✰✰✰✰✰",
       "\"Spectacular!\" - ✰✰✰✰✰"
     ];
@@ -94,17 +94,22 @@ export function Main() {
 
             <div className="bottom-section">
                 <div className="bottom-section-left">
-                    <div>
-                    1
+                    <div className="bottom-info-top">
+                    Who we are? <br/>
                     </div>
-                    <div>
-                    1.2
+                    <div className="bottom-info-middle">
+                    Style. Class. Comfort.
+                    </div>
+                    <div className="bottom-info-bottom">
+                    <br/>
+                    Here at Tailors, with our skilled team of experienced tailors, we strive to provide our valued customers with personalized and exquisite clothing. From bespoke suits to elegant dresses, we meticulously craft each garment to ensure a perfect fit and impeccable attention to detail. We understand that style goes beyond fashion trends. We believe in creating timeless pieces that reflect your unique personality and individuality. Our artisans carefully select high-quality fabrics and employ innovative techniques to bring your vision to life, resulting in garments that exude elegance and sophistication.
+                    <br/>
                     </div>
                 </div>
 
                 <div className="bottom-section-right">
                     <div className="bottom-info-top">
-                    8:30 AM TO 5:30PM <br/>
+                    8:30 AM TO 7:30PM <br/>
                     MONDAY - SATURDAY <br/>
                     <br/>
                     </div>
@@ -112,7 +117,7 @@ export function Main() {
                     Appointments
                     </div>
                     <div className="bottom-info-bottom">
-                    Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint non proident, sunt in culpa qui officia deserunt mollit anim id est laboru
+                    Our booking hours are from 8:30 am to 5:30 pm, ensuring that we accommodate your schedule. Whether you're an early riser or prefer an afternoon appointment, we have flexible time slots available to suit your needs.
                     <br/>
                     </div>
                     <div className="bottom-section-book-button">

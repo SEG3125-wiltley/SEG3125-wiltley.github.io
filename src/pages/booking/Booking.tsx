@@ -40,20 +40,20 @@ export function Booking(prop : props) {
     const stages: Stage[] = [
         {
             id: 0,
-            name: "Stage 1",
-            description: "Description of Stage 1",
+            name: "Selection of services",
+            description: "At our tailorship, we provide a range of exceptional services to cater to your unique needs. Whether you bring in your own garment for a personalized fit and expert alterations, choose from our ready-to-wear collection with precise measurements to ensure a perfect fit, opt for customized collections crafted from scratch with your choice of fabrics and colors, or desire the ultimate in exclusivity with our full custom design service, designed by our elite tailors and favored by celebrities for prestigious events, we are committed to delivering impeccable craftsmanship and sartorial excellence.",
             completed: false,
         },
         {
             id: 1,
-            name: "Stage 2",
-            description: "Description of Stage 2",
+            name: "Appointment Scheduling",
+            description: "To schedule an appointment, simply select your preferred date and time from the available slots below. Our scheduling system ensures that you can find an appointment that fits seamlessly into your busy schedule. Whether you're an early riser or prefer an evening appointment, we have flexible time slots to accommodate your needs.",
             completed: false,
         },
         {
             id: 2,
-            name: "Stage 3",
-            description: "Description of Stage 3",
+            name: "Personal Information",
+            description: "We kindly request you to provide us with some necessary details to enhance your tailoring experience. Rest assured that the information you provide will be kept strictly confidential and used solely for the purpose of delivering exceptional service tailored to your needs.",
             completed: false,
         },
     ];

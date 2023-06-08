@@ -16,7 +16,9 @@
 
 .booking-island-side {
     width: 100%;
-    background-color: #D3D3D3;
+    background-image: url('../../images/stars.jpg');
+    background-size: cover;
+
 }
 
 .booking-info-side {
