@@ -1,5 +1,4 @@
 import './ImageIndicator.css';
-import { ImageSelector } from '../../../pages/main/Main'
 
 interface props {
     selectorState: boolean;

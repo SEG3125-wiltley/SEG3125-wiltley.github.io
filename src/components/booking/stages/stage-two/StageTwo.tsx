@@ -4,7 +4,7 @@ import { BookingTime } from "./bookingtime/BookingTime"
 import React, { useState } from 'react';
 import { AlterBookingInfo } from "../../../../pages/booking/Booking"
 
-type BookingTime = {
+type BookTime = {
     id: number;
     time: string;
 }
@@ -14,7 +14,7 @@ export function StageTwo(props : AlterBookingInfo) {
     const [number, setNumber] = useState(1);
     const [selectedTime, setTime] = useState(0);
 
-    const times: BookingTime[] = [
+    const times: BookTime[] = [
     {   
         id: 0,
         time: "8:30am-9:30am"

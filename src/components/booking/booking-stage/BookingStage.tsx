@@ -1,5 +1,4 @@
 import "./BookingStage.css"
-import { useState } from 'react';
 
 
 export interface StageInfo {
@@ -12,8 +11,6 @@ export interface StageInfo {
 }
 
 export function BookingStage (props: StageInfo) {
-
-    const [isBoolean, setIsBoolean] = useState<boolean>(false);
 
     const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
         event.preventDefault()

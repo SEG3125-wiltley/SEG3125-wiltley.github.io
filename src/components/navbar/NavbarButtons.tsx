@@ -1,6 +1,5 @@
 import './NavbarButtons.css';
 import React from 'react';
-import { Link } from 'react-router-dom'
 
 interface props {
     name: string;
