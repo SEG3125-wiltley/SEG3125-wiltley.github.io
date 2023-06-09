@@ -117,7 +117,7 @@ export function Main() {
                     Appointments
                     </div>
                     <div className="bottom-info-bottom">
-                    Our booking hours are from 8:30 am to 5:30 pm, ensuring that we accommodate your schedule. Whether you're an early riser or prefer an afternoon appointment, we have flexible time slots available to suit your needs.
+                    Our booking hours are from 8:30 am to 7:30 pm, ensuring that we accommodate your schedule. Whether you're an early riser or prefer an afternoon appointment, we have flexible time slots available to suit your needs.
                     <br/>
                     </div>
                     <div className="bottom-section-book-button">

@@ -6,11 +6,11 @@ export function Navbar() {
 
         <div className="nav-main-component">
             <div className="nav-flex">
-                    <NavbarButton name = ""/>
-                    <NavbarButton name=""/>
-                    <NavbarButton name="COLLECTIONS"/>
-                    <NavbarButton name=""/>
-                    <NavbarButton name=""/>
+                    <NavbarButton name ="" link="/"/>
+                    <NavbarButton name="" link="/"/>
+                    <NavbarButton name="COLLECTIONS" link ="/"/>
+                    <NavbarButton name="" link="/"/>
+                    <NavbarButton name="" link="/"/>
 
                     <div className="nav-middle-circle"> 
                         <div className="nav-title">
@@ -18,11 +18,11 @@ export function Navbar() {
                         </div>
                     </div>
 
-                    <NavbarButton name=""/>
-                    <NavbarButton name="HOME" />
-                    <NavbarButton name="CONTACT US"/>
-                    <NavbarButton name="ABOUT US"/>
-                    <NavbarButton name=""/>
+                    <NavbarButton name="" link="/"/>
+                    <NavbarButton name="HOME" link="/" />
+                    <NavbarButton name="CONTACT US" link="/contact" />
+                    <NavbarButton name="BOOK" link="/experts" />
+                    <NavbarButton name="" link="/"/>
             </div>
         </div>
     </>
